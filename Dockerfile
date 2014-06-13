@@ -7,3 +7,6 @@ RUN apt-get upgrade -y
 
 RUN apt-get install openjdk-7-jre-headless curl -y
 
+ #activemq, amq console, mqtt , ssl
+EXPOSE 61616 8161 1883 61617
+
